@@ -5,9 +5,9 @@ import streamlit as st
 import duckdb
 from duckdb import CatalogException
 # ===== 경로 설정 =====
-DB_PATH  = "/Users/user/Downloads/prac/database.duckdb"
-LOANS_CSV_PATH = "/Users/user/Downloads/prac/도서대출기록.csv"
-STORED_BOOKS_CSV_PATH = "/Users/user/Downloads/prac/소장도서목록(2025.09.11.).csv"
+DB_PATH  = "database.duckdb"
+LOANS_CSV_PATH = "도서대출기록.csv"
+STORED_BOOKS_CSV_PATH = "소장도서목록(2025.09.11.).csv"
 LOANS_TABLE = "loansBooks"
 WISHLIST_TABLE = "user_wishlist"
 STORED_BOOKS_TABLE = "storedBooks"
